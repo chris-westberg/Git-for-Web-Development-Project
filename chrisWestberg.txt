@@ -43,25 +43,55 @@ ID is used to specify one element on a page. Lets say you want to add borders to
 but you want every border to be a different syle. You can use the class "image" to specify that you are selecting 
 the images for their borders, but you use the ID "img1", "img2", etc. to identify which specific image you want to use. 
     20. How do we select classes in CSS?
-    The
+Answer: Classes are selected by using a period before the name of the class (i.e. .images). 
     21. How do we select a p element with a single class of “human””?
+Answer: .human p {
+    code
+}
     22. What is a parent child selector? When would this be useful? 
+Answer: A parent child selector is used to specify a child within a parent element (see answer for previous question).
     23. How do you select all links within a div with the class of sidebar?
+Answer: div .class a {
+    code
+}
     24. What is a pseudo selector?
+Answer: A pseudo selector is a CSS selector that specifies what happens to an element when an action is done to it (i.e. hover, click, visited). 
     25. What do we use the change the spacing between lines?
+Answer: line-height
     26. What do we use to change the spacing between letters?
+Answer: letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+Answer: transform
     28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border-width: 1px;
+        border-color: black;
+        border-style: dotted;
+    }
     29. How do I select everything on the page? 
+    * {
+        code
+    }
     30. How do I write a comment in CSS?
+/* This is how you would format a comment in CSS!*/
     31. How do I find out what file I am in, when I am using the command line? 
+Answer: The find function. 
     32. Using the command line - how do I see a list of files/folders in my current folder?
+Answer: You use the LS function. 
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+Answer: You can use the rm function. You must be careful 
+        because it is permanent and there is no warning for this function. 
     34. Why should I use version control? 
+Answer: Version control is a lot more versatile in functionality.
     35. How often should I commit to github?
+Answer: You should commit to github every time you make a change. 
     36. What is the command we would use to push our repo up to github? 
+Answer: push
     37. Walk me through Lambda's git flow. 
-    iahdsfglijqabsdgf;iojabnsd;oiba;oidusbhvlAISJDbvliasrgh
+Answer: When you have a project, you must first make your copy of the project by forking it.
+You will then put it onto its own branch by using checkout -b. After doing whatever code needs 
+to be done to the project, you will add the file to the branch, commit it, and then push it back onto the web. 
+You will then create a pull request on github. 
 
 Stretch Questions
 
@@ -70,7 +100,3 @@ Stretch Questions
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the fix for the box model? 
-
-    03/15/20
-    Chris Westberg
-    
